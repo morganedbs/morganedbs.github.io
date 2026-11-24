@@ -1,0 +1,208 @@
+body{
+    font-family: Poppins, Nunito, sans-serif;
+    background-color: #F2EBDC;
+    color: #922920;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 10%;
+}
+
+.navbar {
+    background-color: #F2EBDC;
+}
+
+a.navbar-item {
+    color: #BE3C2F;
+}
+
+a.navbar-item:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.navbar .button {
+    color: #BE3C2F;
+    background-color: #faf6ee;
+    border-color: #BE3C2F;
+    border-width: 2px;
+}
+
+.navbar .button:hover {
+    color: #F2EBDC;
+    background-color: #BE3C2F;
+    border-color: #F2EBDC;
+}
+
+.mynerve-regular {
+    font-family: "Mynerve", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: mynerve, montserrat, sans-serif;
+}
+
+.title.is-1 {
+    color: #BE3C2F;
+    font-size: 4em;
+
+}
+
+#title_portfolio {
+    font-size: 95px;
+    padding-bottom : 10px;
+    color: #F2EBDC;
+}
+
+#prenom {
+    color: #F2EBDC;
+}
+
+.hero {
+    background-color: #BE3C2F;
+     border-radius: 30px;
+}
+
+.hero.buttons {
+    color: #BE3C2F;
+    background-color: #F2EBDC;
+    border-color: #BE3C2F;
+    border-width: 2px;
+}
+
+.hero .button:hover {
+    background-color: #F2EBDC;
+    color: #BE3C2F;
+
+}
+
+#formations {
+    background-color: #BE3C2F;
+    border-radius: 30px;
+    padding: 30px;
+    color: #F2EBDC;
+}
+
+#formations-title {
+    color: #F2EBDC;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.projet:hover {
+    text-decoration: underline;
+     text-underline-offset: 4px;
+}
+
+.projet{
+     color: #BE3C2F;
+}
+
+.competences-content{
+    border: solid 2px #BE3C2F; 
+    background-color: #faf6ee;
+  
+}
+
+.domaines-competences {
+    color: #BE3C2F;
+}
+
+.domaine{
+    background-color: #BE3C2F;
+    color: #f9f7f2;
+}
+
+.tag-rond-competence{
+    background-color: #fefcf7;
+    border: solid 2px #BE3C2F;
+    color: #BE3C2F;
+}
+
+.en-tete{
+    background-color: #BE3C2F;
+    color : #F2EBDC;
+}
+
+.fond{
+    background-color: #f9f7f2;
+    color : #922920;
+}
+
+.fond h3{
+    color : #BE3C2F;
+}
+
+.titre-modal{
+    color: #faf6ee;
+}
+
+.slider-navigation-next {
+    color: #BE3C2F;
+    background-color: #f5f1e7;
+    border-color: #BE3C2F;
+    border-width: 2px;
+}
+
+.slider-navigation-next:hover {
+    color: #f5f1e7;
+    background-color: #BE3C2F;
+    border-color: #F2EBDC;
+}
+
+.slider-navigation-previous {
+    color: #BE3C2F;
+    background-color: #f5f1e7;
+    border-color: #BE3C2F;
+    border-width: 2px;
+}
+
+.slider-navigation-previous:hover {
+    color: #f5f1e7;
+    background-color: #BE3C2F;
+    border-color: #F2EBDC;
+}
+
+.typo-blanche {
+    color: #F2EBDC;
+}
+
+.footer {
+    color: #F2EBDC;
+    background-color: #BE3C2F;
+    border-radius: 30px;
+}
+
+.footer.column.is-inline-flex.ml-6 {
+    color: #F2EBDC;
+}
+
+.contact:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+#contact-title {
+    color: #F2EBDC;
+}
+
+
+.card-content, .date, .competences-content{
+    color: #922920;
+}
+
+.container.columns.title.is-4 {
+    color: #F2EBDC;
+
+}
+
+
+
+/* Carousel : images des cartes bien cadrées */
+.carousel .card-image img {
+    object-fit: cover;
+}
